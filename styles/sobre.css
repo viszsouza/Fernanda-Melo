@@ -1,0 +1,61 @@
+@import url("base.css");
+
+header{
+    background-color: var(--primaria);
+    width: 100%;
+}
+
+/* Sobre mim */
+.sobre-mim{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 40px 20px;
+}
+
+.sobre-mim-textos{
+    width: 50%;
+}
+
+.sobre-mim-textos h1{
+    font-size: 30px;
+    color: var(--branco);
+}
+
+.sobre-mim-textos p{
+    font-size: 24px;
+    color: var(--branco);
+}
+
+span{
+    font-weight: 600;
+}
+
+.sobre-mim-images{
+    max-width: 600px;
+}
+
+.sobre-mim-images img{
+    width: 480px;
+    height: 580px;  
+    border-radius: 15px;
+    border: solid 2px var(--branco);
+    object-fit: cover;  
+    box-shadow: var(--shadow);
+}
+
+.button-sobre{
+    display: flex;
+    justify-content: start;
+    margin-top: 40px;
+}
+
+.button-sobre button{
+    padding: 10px 20px;
+    background-color: var(--secundaria);
+    color: var(--branco);
+    border: none;
+    border-radius: 5px;
+    box-shadow: var(--shadow);
+}

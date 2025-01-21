@@ -1,0 +1,131 @@
+@import url("base.css");
+
+header{
+    background-color: var(--primaria);
+    width: 100%;
+}
+
+.inicio{
+    background-image: linear-gradient(rgba(200, 125, 76, 0.5), rgba(200, 125, 76, 0.5)), url('../Imagens/Home/imagem_inicio.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 600px;
+}
+
+/* Areas de Atuação */
+.areas-de-atuacao{
+    text-align: center;
+    padding: 40px 20px;
+    color: var(--branco);
+}
+
+.areas-de-atuacao h1{
+    font: bold;
+    font-size: 32;
+}
+
+.areas{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    margin-top: 40px;
+}
+
+.areas-item{
+    background-color: var(--branco);
+    color: var(--primaria);
+    border-radius: 10px;
+    width: 350px;
+    padding: 15px;
+    box-shadow: var(--shadow);
+}
+
+.areas-item img{
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.areas-item h1{
+    font-size: 25px;
+    text-align: start;
+    margin-bottom: 10px;
+    color: var(--secundaria);
+}
+
+.areas-item p{
+    font-size: 20px;
+    text-align: start;
+    color: var(--secundaria);
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.button button{
+    padding: 10px 20px;
+    background-color: var(--secundaria);
+    color: var(--branco);
+    border: solid 1px var(--branco);
+    border-radius: 5px;
+    box-shadow: var(--shadow);
+}
+
+/* Sobre mim */
+.sobre-mim{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+    background-color: var(--branco);
+    padding: 40px 20px;
+}
+
+.sobre-mim-textos{
+    width: 50%;
+}
+
+.sobre-mim-textos h1{
+    font-size: 30px;
+    color: var(--secundaria);
+}
+
+.sobre-mim-textos p{
+    font-size: 24px;
+    color: var(--secundaria);
+}
+
+.sobre-mim-images{
+    max-width: 600px;
+}
+
+.sobre-mim-images img{
+    width: 480px;
+    height: 530px;  
+    border-radius: 15px;
+    border: solid 2px var(--primaria);
+    object-fit: cover;  
+    box-shadow: var(--shadow);
+}
+
+.button-sobre{
+    display: flex;
+    justify-content: start;
+    margin-top: 40px;
+}
+
+.button-sobre button{
+    padding: 10px 20px;
+    background-color: var(--secundaria);
+    color: var(--branco);
+    border: none;
+    border-radius: 5px;
+    box-shadow: var(--shadow);
+}
