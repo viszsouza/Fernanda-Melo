@@ -6,23 +6,42 @@ header{
 }
 
 .inicio{
-    background-image: linear-gradient(rgba(200, 125, 76, 0.5), rgba(200, 125, 76, 0.5)), url('../Imagens/Home/imagem_inicio.png');
+    background-image: linear-gradient(rgba(200, 125, 76, 0.5), rgba(200, 125, 76, 0.5)), url('../Imagens/Serviços/InicioServiços.jpg');
     background-size: cover;
     background-position: center;
     width: 100%;
     height: 600px;
 }
 
-/* Areas de Atuação */
-.areas-de-atuacao{
-    text-align: center;
-    padding: 40px 20px;
-    color: var(--branco);
+.text-inicio{
+    background-color: var(--branco);
+    width: 380px;
+    padding: 20px;
+    margin-top: 100px;
+    margin-left: 10%;
+    border-radius: 15px;
+    box-shadow: var(--shadow);
 }
 
-.areas-de-atuacao h1{
-    font: bold;
-    font-size: 32;
+.text-inicio h1{
+    color: var(--primaria);
+    font-size: 40px;
+}
+
+.text-inicio p{
+    color: var(--primaria);
+    font-size: 20px;
+}
+
+/* Serviços - Sucessão */
+.services{
+    padding: 40px 20px;
+}
+
+.sucessao{
+    text-align: center;
+    color: var(--branco);
+    font-size: 30px;
 }
 
 .areas{
@@ -37,6 +56,7 @@ header{
     color: var(--primaria);
     border-radius: 10px;
     width: 350px;
+    height: 400px;
     padding: 15px;
     box-shadow: var(--shadow);
     margin-top: 40px;
@@ -51,7 +71,8 @@ header{
 }
 
 .areas-item h1{
-    font-size: 25px;
+    font-size: 28px;
+    height: 40px;
     text-align: start;
     margin-bottom: 10px;
     color: var(--secundaria);
@@ -65,65 +86,53 @@ header{
 
 .button{
     display: flex;
-    justify-content: center;
+    justify-content: start;
+    align-items: end;
     margin-top: 40px;
+    width: 100%;
+}
+
+.button a{
+    width: 100%;
 }
 
 .button button{
     padding: 10px 20px;
+    width: 100%;
     background-color: var(--secundaria);
     color: var(--branco);
-    border: solid 1px var(--branco);
+    border: none;
     border-radius: 5px;
     box-shadow: var(--shadow);
 }
 
-/* Sobre mim */
-.sobre-mim{
+/* Planejamento Patrimonial e Sucessório */
+.pps{
+    padding: 40px 60px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
-
-    background-color: var(--branco);
-    padding: 40px 20px;
+    flex-direction: column;
+    color: var(--branco);
 }
 
-.sobre-mim-textos{
-    width: 50%;
+.pps h1{
+    font-size: 40px;
 }
 
-.sobre-mim-textos h1{
-    font-size: 30px;
-    color: var(--secundaria);
+.pps p{
+    font-size: 26px;
 }
 
-.sobre-mim-textos p{
-    font-size: 24px;
-    color: var(--secundaria);
-}
-
-.sobre-mim-images{
-    max-width: 600px;
-}
-
-.sobre-mim-images img{
-    width: 480px;
-    height: 530px;  
-    border-radius: 15px;
-    border: solid 2px var(--primaria);
-    object-fit: cover;  
-    box-shadow: var(--shadow);
-}
-
-.button-sobre{
+.button-pps{
     display: flex;
     justify-content: start;
+    align-items: end;
     margin-top: 40px;
 }
 
-.button-sobre button{
-    padding: 10px 20px;
+.button-pps button{
+    padding: 10px 100px;
+    width: 100%;
+    font-size: 20px;
     background-color: var(--secundaria);
     color: var(--branco);
     border: none;

@@ -1,0 +1,15 @@
+@import url('base.css');
+
+main{
+    display: flex;
+    align-items: center;
+    padding: 40px 60px;
+}
+
+.text{
+    width: 50%;
+}
+
+.formulario{
+    width: 50%;
+}
