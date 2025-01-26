@@ -3,13 +3,101 @@
 main{
     display: flex;
     align-items: center;
+    justify-content: center;
     padding: 40px 60px;
+    gap: 20px;
 }
 
 .text{
-    width: 50%;
+    width: 60%;
+}
+
+.text h1{
+    font-size: 60px;
+    color: var(--branco);
+}
+
+span{
+    font-weight: 600;
+}
+
+.text p{
+    font-size: 26px;
+    color: var(--branco);
+}
+
+#email {
+    font-size: 10px;
+}
+
+.informacoes{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contato{
+    background-color: var(--secundaria);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    padding: 20px;
+    border: solid 1px var(--branco);
+    border-radius: 30px;
+}
+
+.contato img{
+    width: 100px;
+}
+
+.contato p{
+    text-align: center;
+    margin-top: 20px;
+    color: var(--branco);
+    font-size: 15px;
 }
 
 .formulario{
-    width: 50%;
+    width: 30%;
+    padding: 20px;
+    background-color: var(--secundaria);
+    border-radius: 15px;
+    box-shadow: var(--shadow);
+}
+
+.formulario form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: var(--branco);
+}
+
+.formulario form input{
+    padding: 15px 20px;
+    background-color: var(--branco);
+    border-radius: 10px;
+    border: none;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button button{
+    padding: 10px 50px;
+    font-size: 20px;
+    background-color: var(--secundaria);
+    border: solid 2px var(--branco);
+    color: var(--branco);
+    border-radius: 50px;
+    margin-top: 10px;
 }
