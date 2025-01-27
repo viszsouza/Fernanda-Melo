@@ -76,6 +76,11 @@ header{
     border: solid 1px var(--branco);
     border-radius: 5px;
     box-shadow: var(--shadow);
+    transition: 300ms;
+}
+
+.button button:hover{
+    transform: scale(1.05);
 }
 
 /* Sobre mim */
@@ -129,4 +134,35 @@ header{
     border: none;
     border-radius: 5px;
     box-shadow: var(--shadow);
+    transition: 300ms;
+}
+
+.button-sobre button:hover{
+    transform: scale(1.05);
+}
+
+/* Media para iPads & tablets */
+@media (min-width: 751px) and (max-width: 1024px) {
+    .sobre-mim{
+        flex-direction: column;
+    }
+
+    .sobre-mim-textos{
+        width: 100%;
+    }
+}
+
+/* Media para Dispositivos Móveis */
+@media (max-width: 750px) {
+    .sobre-mim{
+        flex-direction: column;
+    }
+
+    .sobre-mim-textos{
+        width: 100%;
+    }
+
+    .sobre-mim-images img{
+        width: 100%;
+    }
 }

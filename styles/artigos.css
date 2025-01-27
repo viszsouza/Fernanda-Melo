@@ -6,7 +6,7 @@ header{
 }
 
 .inicio{
-    background-image: linear-gradient(rgba(200, 125, 76, 0.5), rgba(200, 125, 76, 0.5)), url('../Imagens/Serviços/InicioServiços.jpg');
+    background-image: linear-gradient(rgba(200, 125, 76, 0.5), rgba(200, 125, 76, 0.5)), url('../Imagens/Artigos/Foto_aba\ _artigos_.jpg');
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -15,7 +15,7 @@ header{
 
 .text-inicio{
     background-color: var(--branco);
-    width: 380px;
+    width: 390px;
     padding: 20px;
     margin-top: 100px;
     margin-left: 10%;
@@ -70,7 +70,7 @@ header{
     margin-bottom: 20px;
 }
 
-.areas-item h1{
+.areas-item p{
     font-size: 28px;
     height: 40px;
     text-align: start;
@@ -143,11 +143,6 @@ header{
     border: none;
     border-radius: 5px;
     box-shadow: var(--shadow);
-    transition: 300ms;
-}
-
-.button-pps button:hover{
-    transform: scale(1.05);
 }
 
 /* Media para iPads & tablets */

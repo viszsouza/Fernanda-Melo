@@ -59,3 +59,29 @@ span{
     border-radius: 5px;
     box-shadow: var(--shadow);
 }
+
+/* Media para iPads & tablets */
+@media (min-width: 751px) and (max-width: 1024px) {
+    .sobre-mim{
+        flex-direction: column;
+    }
+
+    .sobre-mim-textos{
+        width: 100%;
+    }
+}
+
+/* Media para Dispositivos Móveis */
+@media (max-width: 750px) {
+    .sobre-mim{
+        flex-direction: column;
+    }
+
+    .sobre-mim-textos{
+        width: 100%;
+    }
+
+    .sobre-mim-images img{
+        width: 100%;
+    }
+}

@@ -26,6 +26,14 @@ span{
     color: var(--branco);
 }
 
+#mostrando{
+    display: block;
+}
+
+#escondido{
+    display: none;
+}
+
 #email {
     font-size: 10px;
 }
@@ -100,4 +108,59 @@ span{
     color: var(--branco);
     border-radius: 50px;
     margin-top: 10px;
+    transition: 300ms;
+}
+
+.button button:hover{
+    transform: scale(1.05);
+}
+
+/* Media para iPads & tablets */
+@media (min-width: 751px) and (max-width: 1024px) {
+    #mostrando{
+        display: none;
+    }
+    
+    #escondido{
+        display: block;
+    }
+
+    main{
+        display: flex;
+        flex-direction: column;
+        padding: 20px 40px;
+    }
+
+    .text{
+        width: 100%;
+    }
+
+    .formulario{
+        width: 60%;
+    }
+}
+
+/* Media para Dispositivos Móveis */
+@media (max-width: 750px) {
+    #mostrando{
+        display: none;
+    }
+    
+    #escondido{
+        display: block;
+    }
+
+    main{
+        display: flex;
+        flex-direction: column;
+        padding: 20px 40px;
+    }
+
+    .text{
+        width: 100%;
+    }
+
+    .formulario{
+        width: 100%;
+    }
 }

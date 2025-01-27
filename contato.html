@@ -42,26 +42,27 @@
 
         <main>
             <!-- Texto -->
-            <section class="text">
+            <section class="text hidden">
                 <h1>Fomulário</h1>
-                <p><span>Preencha o formulário ao lado e retornaremos o mais breve possível.</span> Caso prefira, clique nos links abaixo para contato direto:</p>
+                <p id="mostrando"><span>Preencha o formulário ao lado e retornaremos o mais breve possível.</span> Caso prefira, clique nos links abaixo para contato direto:</p>
+                <p id="escondido"><span>Preencha o formulário abaixo e retornaremos o mais breve possível.</span> Caso prefira, clique nos links abaixo para contato direto:</p>
 
-                <div class="informacoes">
-                    <a href="">
+                <div class="informacoes hidden">
+                    <a href="" class="hidden">
                         <div class="contato">
                             <img src="Imagens/whatsappContato.png" alt="">
                             <p>21 96540-8484</p>
                         </div>
                     </a>
     
-                    <a href="">
+                    <a href="" class="hidden">
                         <div class="contato">
                             <img src="Imagens/envelope.png" alt="">
                             <p id="email">juridico.fernandamelo@gmail.com</p>
                         </div>
                     </a>
     
-                    <a href="">
+                    <a href="" class="hidden">
                         <div class="contato">
                             <img src="Imagens/instagramContato.png" alt="">
                             <p>@adv.fernandamelo</p>
@@ -71,7 +72,7 @@
             </section>
 
             <!-- Formulário -->
-            <section class="formulario">
+            <section class="formulario hidden">
                 <form action="">
                     <label for="nome">Seu nome completo:</label>
                     <input type="text" name="nome" id="" placeholder="Digite seu nome aqui">
