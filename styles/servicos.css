@@ -121,6 +121,7 @@ header{
 
 .pps h1{
     font-size: 40px;
+    text-align: center;
 }
 
 .pps p{
@@ -170,6 +171,10 @@ header{
         align-items: center;
         justify-content: center;
     }
+
+    .pps{
+        padding: 20px;
+    }
 }
 
 /* Media para Dispositivos Móveis */
@@ -191,5 +196,9 @@ header{
         flex-direction: column;
         align-items: center;
         justify-content: center;
+    }
+
+    .pps{
+        padding: 20px;
     }
 }
