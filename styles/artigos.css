@@ -187,4 +187,8 @@ header{
         align-items: center;
         justify-content: center;
     }
+
+    .areas-item p{
+        height: 10%;
+    }
 }
