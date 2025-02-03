@@ -63,3 +63,14 @@ const elements = document.querySelectorAll('.hidden')
 
 // Selecionando 1 arquivos por vez da classe ".hidden"
 elements.forEach( (element) => myObserver.observe(element))
+
+// Serviços - description
+document.querySelectorAll('.button').forEach((button, index) => {
+    button.addEventListener('mouseenter', () => {
+        document.querySelectorAll('.description')[index].style.display = 'block';
+    });
+
+    button.addEventListener('mouseleave', () => {
+        // Mantém visível mesmo após sair do hover
+    });
+});
